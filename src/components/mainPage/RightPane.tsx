@@ -17,10 +17,12 @@ const RightPane = () => {
 			}).then((response) => response.json()),
 	});
 	const drawMatches = () => {
-		if ((matchData as Match[]).length > 0) {
-			const elements: JSX.Element[] = [];
-			matchData.map((match: Match) => elements.push(<MatchSmall key={match.id} match={match} content="upcoming" />));
-			return elements;
+		if (loading) {
+      return (
+				<div>
+          <p>No matches today</p>
+				</div>
+			);
 		} else {
 			return (
 				<div>

@@ -35,7 +35,7 @@ const Footer = () => {
 					<p></p>
 				) : (
 					<p>
-						Stored ~{serverStats.matchCount} matches and ~{serverStats.tourneyCount} tournaments for total of {serverStats.DBSize}
+						0 matches and 0 tournaments stored. Backend currently does not exist yet.
 					</p>
 				)}
 			</div>
