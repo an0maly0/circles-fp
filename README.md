@@ -16,3 +16,12 @@
     <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
     <a href="https://osu.ppy.sh/"></a><img src="https://img.shields.io/badge/osu!api-FF66AA?style=for-the-badge&logo=osu!&logoColor=white"></a>
 </div>
+<hr>
+
+> [!NOTE]
+> This is a continuation(?) of the abandoned [project](https://github.com/Mahonzu/circles-fp) by [Mahonzu](https://github.com/Mahonzu) (formerly known as ilia-21).
+
+## To Do
+- [x] Get the website "working" locally
+- [ ] Learn TypeScript
+- [ ] Update dependencies
